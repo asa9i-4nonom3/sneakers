@@ -93,3 +93,23 @@ footer {
   color: black;
   background-color: white;
 }
+
+
+
+@media (max-width: 600px) {
+  #contact .content {
+    display: block;
+  }
+
+  #contact .contact-info,
+#contact .contact-form {
+  width: 100%;
+}
+
+#contact .button input {
+  width: 100%;
+}
+
+
+}
+
