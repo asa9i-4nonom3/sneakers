@@ -61,7 +61,7 @@ footer {
   width: 45%;
 }
 
-#contact .contact-form label{
+#contact .contact-form label {
   font-size: 14px;
 }
 
@@ -102,14 +102,13 @@ footer {
   }
 
   #contact .contact-info,
-#contact .contact-form {
-  width: 100%;
+  #contact .contact-form {
+    width: 100%;
+  }
+
+  #contact .button input {
+    width: 100%;
+  }
+
+
 }
-
-#contact .button input {
-  width: 100%;
-}
-
-
-}
-
