@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+body {
+  color: #121212;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+a {
+  color: #121212;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.site-title {
+  line-height: 1px;
+}
+
+.site-title a {
+  display: block;
+}
+
+
+/* ヘッダー */
+
+#header {
+  margin: 20px 40px;
+}
+
+/* フッター */
+
+footer {
+  background: black;
+  color: white;
+}
+
+#contact {
+  padding: 50px 0;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contact .content {
+  max-width: 1240px;
+  padding: 0 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .contact-info,
+#contact .contact-form {
+  width: 45%;
+}
+
+#contact .contact-form label{
+  font-size: 14px;
+}
+
+#contact .contact-info p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#contact .button input {
+  width: 200px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border: solid 1px white;
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+
+#contact .button input:hover {
+  color: black;
+  background-color: white;
+}
