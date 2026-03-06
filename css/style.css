@@ -24,11 +24,35 @@ img {
 }
 
 
+
 /* ヘッダー */
 
 #header {
   margin: 20px 40px;
 }
+
+
+/* ピックアップ */
+
+#pickup{
+  width: 100%;
+}
+
+#pickup .slide-show {
+  margin: 0 auto;
+}
+
+#pickup h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#pickup img {
+  padding: 0 30px;
+}
+
 
 /* フッター */
 
